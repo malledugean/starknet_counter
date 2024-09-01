@@ -1,0 +1,19 @@
+[package]
+name = "counter"
+version = "0.1.2"
+edition = "2023_11"
+
+# See more keys and their definitions at https://docs.swmansion.com/scarb/docs/reference/manifest.html
+
+[dependencies]
+starknet = ">=2.5.0"
+
+[[target.starknet-contract]]
+# enable Sierra
+sierra = true
+# enable casm
+casm = true
+
+
+# [dev-dependencies]
+# cairo_test = "2.5.0"
